@@ -7,15 +7,29 @@
 //   );
 // }
 // export default App;
-import React from "react";
-import StatsTable from "./Components/StatsTable";
+// import React from "react";
+// import StatsTable from "./Components/StatsTable";
 
-function App() {
+// function App() {
+//   return (
+//     <div>
+//       <StatsTable />
+//     </div>
+//   );
+// }
+
+// export default App;
+// src/App.tsx
+import React from "react";
+import DiamondGrid from "./Components/DiamondGrid";
+
+const App: React.FC = () => {
   return (
-    <div>
-      <StatsTable />
+    <div className="App">
+      <h1>Diamond Grid Buttons</h1>
+      <DiamondGrid />
     </div>
   );
-}
+};
 
 export default App;
