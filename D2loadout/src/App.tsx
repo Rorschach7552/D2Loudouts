@@ -19,15 +19,27 @@
 // }
 
 // export default App;
-// src/App.tsx
+//src / App.tsx;
+// import React from "react";
+// import DiamondGrid from "./Components/DiamondGrid";
+
+// const App: React.FC = () => {
+//   return (
+//     <div className="App">
+//       <DiamondGrid />
+//     </div>
+//   );
+// };
+
+// export default App;
 import React from "react";
-import DiamondGrid from "./Components/DiamondGrid";
+import ArmorCustomization from "./Components/ArmorCustomization";
+import "./App.css";
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>Diamond Grid Buttons</h1>
-      <DiamondGrid />
+    <div className="app">
+      <ArmorCustomization />
     </div>
   );
 };
